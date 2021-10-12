@@ -61,7 +61,5 @@ let obj3 = {
   },
 };
 
-console.log("----------------------");
-for (const iterator of obj3) {
-  console.log(iterator);
-}
+console.log("------------spread on object----------");
+console.log(...obj3);
